@@ -22,6 +22,6 @@ app.get('/', (_req: Request, res: Response): void => {
 });
 
 io.on('connect', (socket) => {});
-server.listen(4000, (): void => {
-  console.log('Server listening on port 4000');
+server.listen(4001, (): void => {
+  console.log('Server listening on port 4001');
 });
